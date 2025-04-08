@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1 class="title">Histoire pour enfants ?</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Histoires</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Contactez-nous les loulous !</h2>
+        <form action="submit_form.php" method="POST"> <!-- Ici, tu devras remplacer l'action par le script de traitement de ton choix -->
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required placeholder="Entrez votre petit nom">
+            </div>
+            <div class="form-group">
+                <label for="prénom">Prénom :</label>
+                <input type="text" id="prénom" name="prénom" required placeholder="Entrez votre petit prénom">
+            </div>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required placeholder="Entrez votre petit email">
+            </div>
+            <div class="form-group">
+                <label for="tel">Numéro de téléphone :</label>
+                <input type="tel" id="tel" name="tel" required placeholder="Entrez votre petit numéro de téléphone">
+            </div>
+            <div class="form-group">
+                <label for="message">Votre message :</label>
+                <textarea id="message" name="message" rows="5" cols="40" placeholder="Écrivez votre petit message ici..." required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Antoine et Nico : made with love ❤️</p>
+    </footer>
+</body>
+</html>
