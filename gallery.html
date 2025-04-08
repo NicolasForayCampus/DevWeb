@@ -1,64 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>Galerie d'histoires</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Galerie d'histoires</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="header">
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1 class="title">Histoire pour enfants ?</h1>
+    </header>
 
-  <h1>Galerie d'histoires</h1>
-  <img src="logo.png" width="100" height="100" alt="Logo">
-  <br>
-  <img src="converture_gallery.jpg" width="600" height="600" alt="Couverture">
-  
-  <ul class="menu">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="gallery.html">Histoires</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Histoires</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-  <h2>Nos histoires pour enfants</h2>
+    <main>
+        <h2>Nos histoires pour enfants</h2>
+        <section>
+            <img src="histoire2.jpg" width="600" height="600" alt="Illustration histoire">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi iusto culpa quidem similique ullam natus voluptatum nostrum laudantium nobis, ea dolor quod debitis magnam modi animi optio quibusdam in?</p>
+        </section>
+        <section>
+            <img src="histoire3.jpg" width="600" height="600" alt="Illustration histoire">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi iusto culpa quidem similique ullam natus voluptatum nostrum laudantium nobis, ea dolor quod debitis magnam modi animi optio quibusdam in?</p>
+        </section>
+        <section>
+            <img src="histoire5.jpg" width="600" height="600" alt="Illustration histoire">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi iusto culpa quidem similique ullam natus voluptatum nostrum laudantium nobis, ea dolor quod debitis magnam modi animi optio quibusdam in?</p>
+        </section>
+    </main>
 
-  <div class="carousel">
-    <input type="radio" name="carousel" id="slide1" checked>
-    <input type="radio" name="carousel" id="slide2">
-    <input type="radio" name="carousel" id="slide3">
-
-    <div class="carousel-inner">
-      <div class="carousel-item">
-        <img src="histoire2.jpg" alt="Histoire 1">
-        <div class="story-text">
-          <h3>Le hibou mystérieux</h3>
-          <p>Par une nuit brumeuse, un hibou aux yeux brillants observait les enfants endormis...</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="histoire3.jpg" alt="Histoire 2">
-        <div class="story-text">
-          <h3>Le jardin endormi</h3>
-          <p>Chaque soir, les plantes racontaient des secrets oubliés... sauf cette nuit-là.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="histoire5.jpg" alt="Histoire 3">
-        <div class="story-text">
-          <h3>Le miroir sous le lit</h3>
-          <p>Lisa pensait que c'était un jeu. Jusqu'à ce que le reflet ne la suive plus...</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="carousel-nav">
-      <label for="slide1"></label>
-      <label for="slide2"></label>
-      <label for="slide3"></label>
-    </div>
-  </div>
-  <br>
-  <footer>
-    <p>© 2025 Antoine et Nico : made with love ❤️</p>
-  </footer>
-
+    <footer>
+        <p>&copy; 2025 Antoine et Nico : made with love ❤️</p>
+    </footer>
 </body>
 </html>
