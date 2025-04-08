@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Playful font for a cartoony feel */
+    background-color: #fce4ec; /* Soft pink background */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff80ab; /* Bright pink header background */
+    padding: 20px;
+    border-bottom: 5px solid #f06292; /* Slightly darker pink border */
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: white; /* White text for contrast */
+    text-shadow: 2px 2px #f06292; /* Subtle shadow for a playful effect */
+}
+
+#banner {
+    object-fit: contain;
+}
+
+#logoheader {
+    max-width: 100px; /* Logo size */
+}
+
+/* Navigation Menu Styling */
+nav {
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0; /* No margin for the last item */
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    background-color: #ff80ab; /* Pink button-like links */
+    padding: 10px 20px;
+    border-radius: 25px; /* Rounded corners for buttons */
+    box-shadow: 2px 2px #f06292; /* Subtle shadow for depth */
+}
+
+nav a:hover {
+    background-color: #f06292; /* Slightly darker pink on hover */
+}
+
+/* Presentation Section Styling */
+h1 {
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+img[alt="PresentationImage"] {
+    max-width: 80%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 15px; /* Rounded corners for images */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ff80ab; /* Same as header for consistency */
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer img {
+    max-width: 50px; /* Smaller logo size in footer */
+}
+
+footer p {
+    font-size: 1em;
+    color: white; /* White text in footer */
+}
