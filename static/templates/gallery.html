@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Galerie d'histoires</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='stylesheets/style.css')}}">
+</head>
+<body>
+    <header class="header">
+        <img src="{{url_for('static', filename='image/logo.png')}}" alt="Logo" class="logo">
+        <h1 class="title">Histoire pour enfants ?</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="{{url_for('static', filename='index.html')}}">Home</a></li>
+            <li><a href="{{url_for('static', filename='gallery.html')}}">Stories</a></li>
+            <li><a href="{{url_for('static', filename='contact.html')}}">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Nos histoires pour tout petits</h2>
+        <section>
+            <img src="{{url_for('static', filename='image/histoire2.png')}}" width="600" height="600" alt="Illustration histoire">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi iusto culpa quidem similique ullam natus voluptatum nostrum laudantium nobis, ea dolor quod debitis magnam modi animi optio quibusdam in?</p>
+        </section>
+        <section>
+            <img src="{{url_for('static', filename='image/histoire3.png')}}" width="600" height="600" alt="Illustration histoire">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi iusto culpa quidem similique ullam natus voluptatum nostrum laudantium nobis, ea dolor quod debitis magnam modi animi optio quibusdam in?</p>
+        </section>
+        <section>
+            <img src="{{url_for('static', filename='image/histoire5.png')}}" width="600" height="600" alt="Illustration histoire">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi iusto culpa quidem similique ullam natus voluptatum nostrum laudantium nobis, ea dolor quod debitis magnam modi animi optio quibusdam in?</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Antoine et Nico : made with love ❤️</p>
+    </footer>
+</body>
+</html>

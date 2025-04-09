@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<header>
+<link rel="stylesheet" href="{{url_for('static', filename='stylesheets/index.css')}}">
+<title>Histoires pour enfants?</title>
+<img id="logoheader" src="{{url_for('static', filename='images/logo.png')}}" alt="Logo">
+</br>
+<img id="banner" src="{{url_for('static', filename='images/banner.webp')}}" alt="Banner">
+<h1>Histoires pour enfants?</h1>
+<nav>
+    <li><a href="{{url_for('static', filename='templates/index.html')}}">Home</a></li>
+    <li><a href="{{url_for('static', filename='templates/gallery.html')}}">Stories</a></li>
+    <li><a href="{{url_for('static', filename='templates/contact.html')}}">Contact</a></li>
+</nav>
+</header>
+<body>
+
+    <h1>Présentation</h1>
+
+    <p>"Histoires pour enfants?" propose des histoires pour enfants et adultes, à morales pertinentes et pas traumatisantes.</p>
+    <img src="{{url_for('static', filename='images/banner.webp')}}" alt="PresentationImage">
+
+</body>
+
+<footer>
+    <img src="{{url_for('static', filename='images/logo.png')}}" alt="Logo">
+    <p>Auteurs : Antoine et Nicolas</p>
+</footer>
+
+</html> 
